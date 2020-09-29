@@ -1,0 +1,27 @@
+body  {
+   min-height:100%;
+   background-color: #000 !important;
+}
+
+.welcome {
+   font-family: 'lato';
+   font-size: 1.5rem;
+   color: #49D49D;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jumbo-bg{
+    background-color: #49D49D;
+}
+
+.strapline{
+    color: #49D49D;
+    font-weight: lighter;
+    font-style: inherit;
+    letter-spacing: 0.1rem;
+}

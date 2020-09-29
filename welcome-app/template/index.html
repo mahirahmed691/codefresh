@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+         <link rel="stylesheet" href="static/stylesheets/welcome-template.css">
+         
+
+         <!-- The welcome struct (shown in the main.go code) is received within the HTML and we just need to use the . operator and retrieve the information we want -->
+         <title>Welcome {{.Name}}</title>
+   </head>
+   <body>
+  
+        <div class="welcome center">Welcome {{.Name}}, it is {{.Time}}</div>
+
+        <h1 class="center strapline mt-md-4">Building a Web App with GOLang ⚡️</h1> 
+
+
+        <div class="jumbotron jumbo-bg">
+            <div class="container">
+                <h1 class="display-4">بسم الله الرحمن الرحيم</h1>
+                <p class="lead">“Worldly life is short, so turn to Allah (God) before you return to Allah (God).”</p>
+            </div>
+            <div>
+                <p class="lead">
+                    <a class="btn btn-dark btn-sm center" href="#" role="button">Login</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container mt-md-4">
+            <div class="row">
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columnss
+                </div>
+            </div>
+        </div>
+    
+   </body>
+
+</html>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
